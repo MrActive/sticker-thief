@@ -1,0 +1,20 @@
+[telegram]
+token = "5078704864:AAHhAhkQrTZurS-tihIA7t3-5O06xvg4r2s"
+workers = 1
+admins = [689061386]
+admins_only = false
+maintenance_mode = false
+persistent_temp_data = true
+
+[pyrogram]
+enabled = true
+api_id = 2677896
+api_hash = "7f37813fa807d4df7ccd358218a25d51"
+
+[sqlite]
+filename = "stickersbot.sqlite"
+
+[bot]
+sourcecode = "@MediaNHK"
+issues = "@MediaNHK"
+channel = "MediaNHK"
