@@ -18,7 +18,7 @@ logger = logging.getLogger('StickerFile')
 
 
 class StickerFile:
-    DEFAULT_EMOJI = '🎭'
+    DEFAULT_EMOJI = '❤️'
 
     def __init__(self, bot: Bot, message: Message, temp_file=None, emojis: [list, None] = None):
         self._bot = bot
