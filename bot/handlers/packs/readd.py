@@ -29,7 +29,7 @@ logger = logging.getLogger(__name__)
 
 PACK_SUFFIX = f"_by_{stickersbot.bot.username}"
 
-DUMMY_EMOJI = "🧱"  # possibly an emoji that nobody would use
+DUMMY_EMOJI = "❤️" # possibly an emoji that nobody would use
 
 
 def check_pack_name(user_id: int, pack_name: str, context: CallbackContext) -> [None, str]:
