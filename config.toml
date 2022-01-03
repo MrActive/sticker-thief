@@ -2,7 +2,7 @@
 token = "5078704864:AAHhAhkQrTZurS-tihIA7t3-5O06xvg4r2s"
 workers = 1
 admins = [689061386]
-admins_only = false
+admins_only = true
 maintenance_mode = false
 persistent_temp_data = true
 
