@@ -44,7 +44,7 @@ class StickerFile:
             self._emojis = emojis
         elif self._is_sticker and not message.sticker.emoji:
             logger.info("the sticker doesn't have a pack, using default emoji")
-            self._emojis = [self.DEFAULT_EMOJI]
+            self._emojis = [DEFAULT_EMOJI]
         else:
             self._emojis = get_sticker_emojis(message) or [self.DEFAULT_EMOJI]
 
