@@ -25,7 +25,7 @@ class StickerFile:
         self._animated = False
         self._sticker = message.sticker or message.document
         self._is_sticker = True
-        # self._emojis = get_sticker_emojis(message) or [self.DEFAULT_EMOJI]
+        self._emojis = get_sticker_emojis(message) or [self.DEFAULT_EMOJI]
         self._size_original = (0, 0)
         self._size_resized = (0, 0)
         self._user_id = message.from_user.id  # we need this in case we have to create a pack or to add to a pack
